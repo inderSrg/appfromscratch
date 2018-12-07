@@ -1,0 +1,50 @@
+{
+  "name": "appfromscratch",
+  "version": "1.0.0",
+  "description": "Material UI, PWA, Webpack, jest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server:watch": "npx nodemon ./server.js",
+    "webpack:watch": "npx webpack --watch",
+    "css:watch":"npx postcss --watch ./src/public/css/main.css -o ./dist/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inderSrg/appfromscratch.git"
+  },
+  "keywords": [
+    "pwa",
+    "react",
+    "redux",
+    "material",
+    "ui",
+    "application"
+  ],
+  "author": "inder singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inderSrg/appfromscratch/issues"
+  },
+  "homepage": "https://github.com/inderSrg/appfromscratch#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.6.1",
+    "@material-ui/icons": "^3.0.1",
+    "express": "^4.16.4",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.18.7",
+    "postcss": "^7.0.6",
+    "postcss-cli": "^6.0.1",
+    "postcss-import": "^12.0.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
